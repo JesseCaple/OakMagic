@@ -25,7 +25,7 @@ public class CastAnimationTask implements Runnable {
 		delayEvent.getSpell().showCastEffect(delayEvent.getPlayer(), delayEvent.getEntity(), delayEvent.getLocation(), delayEvent.getSpellLevel());
 	}
 	
-	@Overridea
+	@Override
 	public void run() {
 		if (!linkedSpell.getCanceled() && !linkedSpell.getFinished()) {
 			CastAnimationTask animationTask = new CastAnimationTask(linkedSpell);
