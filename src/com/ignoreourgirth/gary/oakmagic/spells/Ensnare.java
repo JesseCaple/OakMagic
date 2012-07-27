@@ -26,7 +26,7 @@ import org.bukkit.potion.PotionEffectType;
 import org.bukkit.util.Vector;
 
 import com.ignoreourgirth.gary.oakmagic.OakMagic;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.Spell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.Spell;
 
 public class Ensnare extends Spell {
 	

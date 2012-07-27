@@ -19,7 +19,7 @@ package com.ignoreourgirth.gary.oakmagic;
 import org.bukkit.entity.Player;
 
 import com.ignoreourgirth.gary.oakcorelib.OakCoreLib;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
 
 public class MPDrainTask implements Runnable {
 

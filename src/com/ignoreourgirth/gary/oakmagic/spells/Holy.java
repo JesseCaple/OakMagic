@@ -22,7 +22,8 @@ import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Monster;
 import org.bukkit.entity.Player;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.Spell;
+
+import com.ignoreourgirth.gary.oakmagic.spellTypes.Spell;
 
 public class Holy extends Spell{
 	

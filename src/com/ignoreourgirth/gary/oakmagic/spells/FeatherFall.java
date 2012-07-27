@@ -27,7 +27,7 @@ import org.bukkit.event.entity.EntityDamageEvent.DamageCause;
 
 import com.ignoreourgirth.gary.oakcorelib.OakCoreLib;
 import com.ignoreourgirth.gary.oakmagic.Chat;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
 
 public class FeatherFall extends ToggleableSpell {
 	

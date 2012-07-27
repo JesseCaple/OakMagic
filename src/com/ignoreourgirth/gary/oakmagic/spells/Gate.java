@@ -30,7 +30,7 @@ import org.bukkit.util.Vector;
 
 import com.ignoreourgirth.gary.oakmagic.Chat;
 import com.ignoreourgirth.gary.oakmagic.OakMagic;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.Spell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.Spell;
 import com.palmergames.bukkit.towny.exceptions.NotRegisteredException;
 import com.palmergames.bukkit.towny.exceptions.TownyException;
 import com.palmergames.bukkit.towny.object.Resident;

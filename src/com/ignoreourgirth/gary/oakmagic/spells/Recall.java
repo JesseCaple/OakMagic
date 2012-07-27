@@ -32,7 +32,7 @@ import org.bukkit.entity.Player;
 import com.ignoreourgirth.gary.oakcorelib.OakCoreLib;
 import com.ignoreourgirth.gary.oakmagic.Chat;
 import com.ignoreourgirth.gary.oakmagic.OakMagic;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.Spell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.Spell;
 
 public class Recall extends Spell{
 

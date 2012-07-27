@@ -20,7 +20,7 @@ import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
-import com.ignoureourgirth.gary.oakmagic.spellTypes.Spell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.Spell;
 
 public class CastTimerTask implements Runnable {
 

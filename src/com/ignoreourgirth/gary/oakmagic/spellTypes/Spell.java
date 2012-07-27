@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this software.  If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
-package com.ignoureourgirth.gary.oakmagic.spellTypes;
+package com.ignoreourgirth.gary.oakmagic.spellTypes;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

@@ -26,7 +26,7 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 import com.ignoreourgirth.gary.oakmagic.Chat;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
 
 public class Rush extends ToggleableSpell {
 	

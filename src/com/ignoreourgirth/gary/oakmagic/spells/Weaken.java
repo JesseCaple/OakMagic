@@ -23,7 +23,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import com.ignoreourgirth.gary.oakmagic.Chat;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.SustainedSpell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.SustainedSpell;
 
 public class Weaken extends SustainedSpell {
 	

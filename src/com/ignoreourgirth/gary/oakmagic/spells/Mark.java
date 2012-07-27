@@ -30,7 +30,7 @@ import org.bukkit.event.entity.EntityDeathEvent;
 
 import com.ignoreourgirth.gary.oakcorelib.OakCoreLib;
 import com.ignoreourgirth.gary.oakmagic.OakMagic;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.Spell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.Spell;
 
 public class Mark extends Spell{
 	

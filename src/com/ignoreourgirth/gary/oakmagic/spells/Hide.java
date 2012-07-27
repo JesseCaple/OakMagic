@@ -31,7 +31,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 import com.ignoreourgirth.gary.oakmagic.Chat;
 import com.ignoreourgirth.gary.oakmagic.OakMagic;
-import com.ignoureourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
+import com.ignoreourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
 
 public class Hide extends ToggleableSpell{
 
