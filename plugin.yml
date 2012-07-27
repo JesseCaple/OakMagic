@@ -1,0 +1,4 @@
+name: OakMagic
+main: com.ignoreourgirth.gary.oakmagic.OakMagic
+version: 1.0
+depend: [OakCoreLib]
