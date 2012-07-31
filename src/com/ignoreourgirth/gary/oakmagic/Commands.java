@@ -45,7 +45,7 @@ public class Commands {
 		Meditation.start(player);
 	}
 	
-	@OnCommand ("magiclist")
+	@OnCommand ("spells")
 	public void listSpells(Player player) {
 		try {
 			int spellCount = 0;
@@ -113,8 +113,9 @@ public class Commands {
 		}
 	}
 	
-	@OnCommand (value="bind", optionals=1)
+	@OnCommand (value="bind", optionals=1, labels="SpellName, SpellLevel")
 	public void enchantWand(Player player, String spellName, int spellLevel) {
+		if (spellLevel == 0) spellLevel = 1;
 		ItemStack stack = player.getItemInHand();
 		if (stack.getType() == Material.STICK) {
 			spellName = spellName.toLowerCase();
@@ -141,8 +142,9 @@ public class Commands {
 		}
 	}
 	
-	@OnCommand (value="magic", optionals=1)
+	@OnCommand (value="cast", optionals=1, labels="SpellName, SpellLevel")
 	public void magicCommand(Player player, String spellName, int spellLevel) {
+		if (spellLevel == 0) spellLevel = 1;
 		spellName = spellName.toLowerCase();
 		if (OakMagic.tracker.spellsByName.containsKey(spellName)) {
 			Spell spell = OakMagic.tracker.spellsByName.get(spellName);
