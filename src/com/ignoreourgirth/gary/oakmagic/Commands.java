@@ -142,7 +142,7 @@ public class Commands {
 		}
 	}
 	
-	@OnCommand (value="cast", optionals=1, labels="SpellName, SpellLevel")
+	@OnCommand (value="magic", optionals=1, labels="SpellName, SpellLevel")
 	public void magicCommand(Player player, String spellName, int spellLevel) {
 		if (spellLevel == 0) spellLevel = 1;
 		spellName = spellName.toLowerCase();

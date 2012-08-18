@@ -32,7 +32,7 @@ import com.ignoreourgirth.gary.oakmagic.spellTypes.ToggleableSpell;
 public class FeatherFall extends ToggleableSpell {
 	
 	public FeatherFall(int id) {
-		super(id, 1);
+		super(id, 0);
 	}
 
 	@Override

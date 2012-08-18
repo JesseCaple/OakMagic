@@ -62,6 +62,8 @@ public abstract class ToggleableSpell extends Spell  {
 			if (MPDrainEventIDs.containsKey(player)) {
 				Bukkit.getScheduler().cancelTask(MPDrainEventIDs.get(player));
 				MPDrainEventIDs.remove(player);
+			}
+			if (mpToDrain > -1 && player.getGameMode() != GameMode.CREATIVE) {
 				OakCoreLib.getXPMP().allowMPRegen(player);
 			}
 			toggleOff(player);
@@ -100,6 +102,8 @@ public abstract class ToggleableSpell extends Spell  {
 		if (mpToDrain > 0 && caster.getGameMode() != GameMode.CREATIVE) {
 			int idReturned = OakMagic.server.getScheduler().scheduleSyncRepeatingTask(OakMagic.plugin, new MPDrainTask(caster, this), 20L, 20L);
 			MPDrainEventIDs.put(caster, idReturned);
+		}
+		if (mpToDrain > -1 && caster.getGameMode() != GameMode.CREATIVE) {
 			OakCoreLib.getXPMP().blockMPRegen(caster);
 		}
 		toggleOn(caster);

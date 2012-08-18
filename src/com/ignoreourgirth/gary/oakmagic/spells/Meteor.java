@@ -25,14 +25,14 @@ import com.ignoreourgirth.gary.oakmagic.Chat;
 import com.ignoreourgirth.gary.oakmagic.OakMagic;
 import com.ignoreourgirth.gary.oakmagic.spellTypes.Spell;
 
-public class SummonMeteor extends Spell{
+public class Meteor extends Spell{
 	
 	private static final float meteorPitch = 75f;
 	private static final float explosiveYeild = 50f;
 	private static final double meteorStartHeight = 220;
 	private static final int tickDelay = 400;
 	
-	public SummonMeteor(int id) {
+	public Meteor(int id) {
 		super(id);
 		isFireSpell = true;
 		isDestructiveSpell = true;
@@ -47,8 +47,6 @@ public class SummonMeteor extends Spell{
 	@Override
 	public void execute(Player caster, Entity targetEntity, Location targetLocation, int spellLevel) {
 		caster.sendMessage("§7Cast complete.");
-		Chat.broadcastMessage(caster, 350, ChatColor.GOLD + "WARNING!!!");
-		Chat.broadcastMessage(caster, 350, ChatColor.RED + ":: Seek deep subterranean shelter immediately.");
 		Chat.broadcastMessage(caster, 350, ChatColor.RED + ":: A large meteor has been sighted. Collision is imminent.");
 		final Location meteorLocation = new Location(caster.getWorld(), caster.getLocation().getX(), meteorStartHeight, caster.getLocation().getZ(), caster.getLocation().getYaw(), meteorPitch);
 		OakMagic.server.getScheduler().scheduleSyncDelayedTask(OakMagic.plugin, new Runnable() {
